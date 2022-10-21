@@ -7,14 +7,11 @@ import java.util.Collections;
  * 
  * To Compile: IntUtil.java RandomInt.java Deque.java DequeTest.java
  * 
- * @author Jagadeesh Vasudevamurthy
- * @year 2022
  */
 
 // Kaiwen Chen 002146255
 class Deque {
-	//You can use any data structure you want except Deque like ArrayDeque from Java library
-	//All operation must be O(1)
+	
 
 	ArrayList<Integer> tmp;
 	ArrayList<Integer> reverse;
@@ -24,10 +21,7 @@ class Deque {
 
 	}
 	
-	/*
-	 * MUST BE Time:O(1)
-	 * MUST BE Space O(1)
-	 */
+	
 	public void addFirst(Integer v) {
 		// simple add is O(1) complexity
 		size++;
@@ -39,20 +33,13 @@ class Deque {
 		}
 	}
 	
-	/*
-	 * MUST BE Time:O(1)
-	 * MUST BE Space O(1)
-	 */
 	public void addLast(Integer v) {
 		// simple add is O(1) complexity
 		size++;
 		tmp.add(v);
 	}
 	
-	/*
-	 * MUST BE Time:O(1)
-	 * MUST BE Space O(1)
-	 */
+	
 	public int removeFirst() {
 		size--;
 
@@ -66,11 +53,6 @@ class Deque {
 
 		return 0 ; //FILL		
 	}
-	
-	/*
-	 * MUST BE Time:O(1)
-	 * MUST BE Space O(1)
-	 */
 
 	public int removeLast() {
 
@@ -86,21 +68,11 @@ class Deque {
 		return 0; //FILL
 	}	
 	
-	/*
-	 * MUST BE Time:O(1)
-	 * MUST BE Space O(1)
-	 */
 	public int size() {
 		return this.size; //FILL
 	}	
 	
-	/*
-	 * MUST BE Time:O(1)
-	 * MUST BE Space O(1)
-	 * THIS IS THE HEART OF MY INFO 6205
-	 * Can you get item at 'pos' in time O(1) and space O(1)
-	 * For 100% grade, this must work
-	 */
+	
 	public int getV(int pos) {
 		// get(index) is O(1) complexity
 		if(reverse.size()==0){
@@ -115,12 +87,7 @@ class Deque {
 
 			}
 		}
-		  //FILL
+		  
 	}
-
-
-	/*************************************************************
-	 * ALL PRIVATE ROUTINES BELOW
-	 **************************************************************/
 	
 }
