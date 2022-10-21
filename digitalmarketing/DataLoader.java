@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package digitalmarketing;
 
 import com.github.javafaker.Faker;
@@ -11,10 +8,7 @@ import digitalmarketing.Personnel.Person;
 import digitalmarketing.Supplier.SupplierDirectory;
 import java.util.Random;
 
-/**
- *
- * @author alelashvili
- */
+
 public class DataLoader {
     
     Faker faker;
@@ -49,12 +43,6 @@ public class DataLoader {
             cd.newCustomerProfile(new Person(customerName));
         }
     }
-    
-   
-    
-    
-    
-    
     
     
     public int getRandomPrice(int lower, int upper){
