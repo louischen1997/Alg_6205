@@ -10,7 +10,7 @@ public class SolutionL0038 {
     }
 
 
-    //WRITE YOUR CODE BELOW
+    
      private String alg(String s) {
             char first = s.charAt(0);
             String res="";
@@ -35,7 +35,7 @@ public class SolutionL0038 {
 
         return res;
 
-//WRITE CODE
+
     }
      private String alg(int n) {
         if(n==1){
@@ -48,7 +48,7 @@ public class SolutionL0038 {
             sn=res;
         }
         return res;
-//WRITE CODE
+
     }
 
     public static void main(String[] args) {
