@@ -12,17 +12,7 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'quickestWayUp' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts following parameters:
-     *  1. 2D_INTEGER_ARRAY ladders
-     *  2. 2D_INTEGER_ARRAY snakes
-     */
-
     public static int quickestWayUp(List<List<Integer>> ladders, List<List<Integer>> snakes) {
-        // Write your code here
         int count = 0;
         Queue<Integer> que = new LinkedList();
         ArrayList<Integer> array = new ArrayList<Integer>();
