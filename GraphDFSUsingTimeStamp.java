@@ -9,8 +9,6 @@ import java.util.HashMap;
  * File Name: GraphDFSUsingTimeStamp.java
  * 
  * 
- * @author Jagadeesh Vasudevamurthy
- * @year 2021
  */
 
 class GraphDFSUsingTimeStamp{
@@ -25,7 +23,7 @@ class GraphDFSUsingTimeStamp{
 
 
 
-	//You can have any number of private classes, variables and functions
+	
 	
 	GraphDFSUsingTimeStamp(Graph g, int [] work, boolean [] cycle,ArrayList<Integer> topologicalOrderArray,String f) {
 		this.g = g ;
@@ -38,10 +36,7 @@ class GraphDFSUsingTimeStamp{
 		writeDFSDot() ;
 	}
 	
-	/*
-	 * WRITE CODE BELOW 
-	 * //YOU CAN HAVE ANY NUMBER OF PRIVATE VARIABLES, DATA STRUCTURES AND FUNCTIONS
-	 */
+	
 
 	private void dfs(){
 		steps=new int [g.numV()][2];
