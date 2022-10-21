@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package digitalmarketing.OrderManagement;
 import digitalmarketing.ProductManagement.Product;
 import java.util.ArrayList;
-/**
- *
- * @author kevinchen
- */
+
 public class OrderPackage {
     String name;
     String survice;
