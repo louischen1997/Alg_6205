@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package digitalmarketing;
 
 
@@ -26,23 +22,15 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- *
- * @author kal bugrara
- */
 public class DigitalMarketing {
     static ArrayList<String> answers=new ArrayList();
     static ArrayList<String> answer2=new ArrayList();
     static ArrayList<String> answer3=new ArrayList();
 
     static double channelRev;
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
         
-        
-
         Business total = new Business("total");
         DataLoader dataLoader = new DataLoader();
         
@@ -52,14 +40,7 @@ public class DigitalMarketing {
         Market lowrev=new Market("Lowrev",4);
         Market general=new Market("General",2);
         Market highrev=new Market("Highrev",3);
-        
-        
-        
-        
-        
-       //total.getSupplierDirectory().printSupplierList();
-       
-       
+    
         
        Supplier firstSupplier = total.getSupplierDirectory().findSupplierByIndex(0);
        Supplier secondSupplier = total.getSupplierDirectory().findSupplierByIndex(1);
@@ -74,7 +55,7 @@ public class DigitalMarketing {
        
        dataLoader.populateCustomerDirectory(total.getCustomerDirectory(), 1, customerName);
        
-       /////////////other customer
+       
        dataLoader.populateCustomerDirectory(total.getCustomerDirectory(), 1, "Louis");
        dataLoader.populateCustomerDirectory(total.getCustomerDirectory(), 1, "Julia");
        
@@ -82,9 +63,6 @@ public class DigitalMarketing {
        
        CustomerDirectory cd = total.getCustomerDirectory();
        CustomerProfile firstCustomer=cd.findCustomerByIndex(0);
-       
-       
-       
        
        
        System.out.println("Select your job with number below ");
@@ -115,9 +93,7 @@ public class DigitalMarketing {
        ProductCatalog  electronic = firstSupplier.getProductcatalog();
        ProductCatalog  furniture= secondSupplier.getProductcatalog();
        ProductCatalog  grocery= thirdSupplier.getProductcatalog();
-       
-       
-      
+   
         electronic.newProduct(500, 1000, 1000, "macbook","electronic");
         electronic.newProduct(500, 1000, 2000, "mac","electronic");
         electronic.newProduct(500, 1000, 800, "iphone13","electronic");
@@ -223,9 +199,6 @@ public class DigitalMarketing {
        }
        System.out.println("------------------------");
        
-   
-       
-       
        
        if (firstCustomer.getRange().equals("1")){
        System.out.println("You get student special discount!");
@@ -265,7 +238,6 @@ public class DigitalMarketing {
        education.getChannel(answer).setRev(education.getChannel(answer).getFinalPrice());
        
        
-     
        }
        else{
        System.out.println("See you next time :)");
@@ -424,24 +396,8 @@ public class DigitalMarketing {
        highrev.setRev(2000);
        highrev.getChannel("5").setRev(highrev.getChannel("5").getFinalPrice());
        
-       
-       
-       
-       
-       
-       
-       
-       System.out.println("--------------------------");
-       System.out.println("Revenue Report");
-       System.out.println("Market: "+education.getName());
-       System.out.println(education.getRev());
-       System.out.println("Market: "+general.getName());
-       System.out.println(general.getRev());
-       System.out.println("Market: "+highrev.getName());
-       System.out.println(highrev.getRev());
-       System.out.println("Market: "+lowrev.getName());
-       System.out.println(lowrev.getRev());
-       System.out.println(" ");
+  
+
        
        for (int i=1;i<10;i++){
        double x=education.getChannel(String.valueOf(i)).getRev();
@@ -453,9 +409,7 @@ public class DigitalMarketing {
        channelRev=x+y+z+k;
        System.out.println(channelRev);
        }
-       
-       
-        
+
         
     }
     
@@ -474,11 +428,5 @@ public class DigitalMarketing {
     purchase();
     }
     }
-    
-    
-    
-    
-    
-    
     
 }
