@@ -2,16 +2,10 @@ import java.util.ArrayList;
 
 /**
  * File Name: L0322.java 
- * @author 
- * @year 2021
  */
 
-/************************************************************
- * CUT AND PASTE ENTIRE FILE IN LEETCODE
- *************************************************************/
 class Solution { 
-	//Nothing can be changed below
-	//LEETCODE VERSION
+	
 	public int coinChange(int[] coins, int amount) {
 		int [] work = {0} ;
 		ArrayList<Integer> ans = new ArrayList<Integer>() ;
@@ -27,9 +21,7 @@ class Solution {
 	}
 }
 
-/************************************************************
-			WRITE CLASS L0322
-*************************************************************/
+
 class L0322 {
 	private int[] d;
 	private int amount ;
@@ -39,7 +31,7 @@ class L0322 {
 	private int[] m;
 	private int[]k;
 	private int[][]doublelist;
-	//You can have any number of private variables below
+	
 	
 	L0322(int[] coins, int amount, ArrayList<Integer> ans, int []work, boolean show) {
 		//NOTHING CAN BE CHANGED HERE
@@ -60,10 +52,7 @@ class L0322 {
 		work[0]++ ;
 	}
 
-	/*
-	 * WRITE YOUR CODE HERE. YOU CAN HAVE ANY NUMBER 
-	 * OF PRIVATE FUNCTIONS AND PRIVATE MEMBER FUNCTION
-	 */
+	
 
 	
 	private void getSolution() {
