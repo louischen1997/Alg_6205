@@ -7,8 +7,6 @@ import java.util.HashMap;
  * File Name: GraphDump.java
  * 
  * 
- * @author Jagadeesh Vasudevamurthy
- * @year 2021
  */
 
 class GraphDump{
@@ -16,7 +14,6 @@ class GraphDump{
 	private String name;
 	boolean dealout=true;
 	boolean dealin=true;
-	//You can have any number of private variables
 	
 	GraphDump(Graph g, String n) {
 		this.g = g ;
@@ -24,9 +21,6 @@ class GraphDump{
 		dump() ;
 	}
 	
-	/******************************************************************
-  									WRITE YOUR CODE BELOW
-	******************************************************************/
 	private void dump() {
 
         if(true) {
