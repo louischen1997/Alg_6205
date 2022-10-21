@@ -4,8 +4,6 @@ import java.io.*;
  * File Name: GraphDot.java
  * 
  * 
- * @author Jagadeesh Vasudevamurthy
- * @year 2021
  */
 
 class GraphDot{
@@ -19,9 +17,7 @@ class GraphDot{
 		dump() ;
 	}
 	
-	/******************************************************************
-									WRITE YOUR CODE BELOW
-	 ******************************************************************/
+	
 	private void dump() {
 		if (false) {
 			try {
