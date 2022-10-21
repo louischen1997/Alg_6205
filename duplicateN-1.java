@@ -6,16 +6,7 @@ import java.io.PrintStream;
 
 /**
  * File Name: duplicateN.java 
- *
- * To Compile: IntUtil.java RandomInt.java duplicateN.java duplicateNTest.java
- * 
- * @author Jagadeesh Vasudevamurthy
- * @year 2021
  */
-
-/************************************************************
-			Nothing can be changed in class duplicateN 
-*************************************************************/
 
 class duplicateN{
 	private int[] a ; //a[i] guaranteed > 0 && < n-1
@@ -51,10 +42,6 @@ class duplicateN{
 	}
 }
 
-/************************************************************
-						WRITE CLASS AlgduplicateN
-			YOU CAN HAVE ANY NUMBER OF PRIVATE VARIABLES and FUNCTIONS
-*************************************************************/
 
 class AlgduplicateN {
 		private duplicateN f;
@@ -75,10 +62,6 @@ class AlgduplicateN {
 				alg_ntime_constant_space();
 			}
 		}
-		
-		/*
-		 * WRITE YOUR CODE BELOW
-		 */
 
 
 		/*
