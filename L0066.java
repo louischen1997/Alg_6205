@@ -1,17 +1,8 @@
 
-/**
- * File Name: L0066.java 
- * @author Jagadeesh Vasudevamurthy
- * @year 2022
- */
 
-/************************************************************
- * CUT AND PASTE ENTIRE FILE IN LEETCODE
- *************************************************************/
+
 class SolutionL0066 { 
-	//In LEETCODE SolutionL0066 changed to Solution
-	//Nothing can be changed below
-	//LEETCODE VERSION
+	
 	  public int[] plusOne(int[] digits) {
 		int [][] ans = new int [1] [] ;
 		int [] work = {0} ;
@@ -28,7 +19,7 @@ class L0066 {
 	private int[] a;
 	private int[][] ans;
 	private int[] work;
-	//YOU CAN HAVE ANY NUMBER OF PRIVATE VARIABLES and FUNCTIONS
+	
 	
 	L0066(int[] a, int[][] ans, int[] work) {
 		this.a = a ;
@@ -37,7 +28,7 @@ class L0066 {
 		alg();
 	} 
 
-	/*-----------------  WRITE CODE BELOW ---------------------------------*/
+	
 
 	private void alg() {
 		int n = a.length ;
@@ -55,9 +46,6 @@ class L0066 {
 			ans[0]=newarr;
 			work[0]++;
 		}
-
-		//WRITE CODE
-
 
 	}
 
