@@ -2,11 +2,8 @@
 /**
  * File Name: SlistSort.java
  * 
- * @author Jagadeesh Vasudevamurthy
- * @year 2021
  */
 /*
- * To compile you require: IntUtil.java RandomInt.java Slist2.java SlistSort.java
  */
 
 public class SlistSort {
@@ -14,7 +11,6 @@ public class SlistSort {
 	private int[] work ;
 	private boolean show ;
 	private static IntUtil u = new IntUtil();
-  //You cannot add any variables to this class 
 	
 	SlistSort(Slist2 s,String method,int[] work, boolean show) { 
 		this.s = s ;
@@ -40,16 +36,12 @@ public class SlistSort {
 	}
 	
 	
-	/************************************************************
-					WRITE YOUR CODE BELOW
-		YOU CAN HAVE ANY NUMBER OF PRIVATE METHODS AND PRIVATE CLASS
-	 *************************************************************/
+	
 	private void merge_sort() {
 		if (show) {
 			s.Pln("Before sort s = ");
 		}
-		//WRITE CODE BELOW
-		//YOU CAN HAVE ANY NUMBER OF PRIVATE METHODS
+		
 		s.first=mergebegin(s.first);
 
 		if (show) { 
@@ -61,8 +53,7 @@ public class SlistSort {
 		if (show) {
 			s.Pln("Before sort s = ");
 		}
-		//WRITE CODE BELOW
-		//YOU CAN HAVE ANY NUMBER OF PRIVATE METHODS
+		
 
 		Node2 n = s.first;
 		if(n!=null){
