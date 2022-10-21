@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package digitalmarketing.Supplier;
 
 import java.util.ArrayList;
@@ -11,10 +7,7 @@ import digitalmarketing.ProductManagement.ProductCatalog;
 import digitalmarketing.ProductManagement.ProductSummary;
 import digitalmarketing.ProductManagement.ProductsReport;
 
-/**
- *
- * @author kal bugrara
- */
+
 public class Supplier {
 
     SupplierDirectory directory;
