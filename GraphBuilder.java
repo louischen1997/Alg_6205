@@ -5,15 +5,12 @@ import java.io.IOException;
 /**
  * File Name: GraphBuilder.java
  * 
- * 
- * @author Jagadeesh Vasudevamurthy
- * @year 2021
  */
 
 class GraphBuilder {
 	private Graph g;
 	private int count=0;
-	//You can have any number of private variables
+	
 
 	GraphBuilder(Graph g, String f) {
 		this.g = g;
@@ -57,10 +54,7 @@ class GraphBuilder {
 						++notreadlines;
 					}
 
-					/******************************************************************
-					 WRITE YOUR CODE BELOW
-					 ******************************************************************/
-
+				
 
 					if(!s[0].equals("") || !s[1].equals("") ) {
 
