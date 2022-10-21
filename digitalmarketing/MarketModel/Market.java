@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package digitalmarketing.MarketModel;
 import digitalmarketing.ProductManagement.Product;
 import digitalmarketing.ProductManagement.ProductCatalog;
@@ -11,10 +7,7 @@ import digitalmarketing.Supplier.SupplierDirectory;
 import digitalmarketing.Business.Business;
 import java.util.ArrayList;
 
-/**
- *
- * @author kal bugrara
- */
+
 public class Market {
     Channel amazon=new Channel("Amazon",true,false);
     Channel apple=new Channel("Apple",true,true);
