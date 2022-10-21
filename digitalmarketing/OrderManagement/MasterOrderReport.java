@@ -2,10 +2,7 @@ package digitalmarketing.OrderManagement;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author kal bugrara
- */
+
 public class MasterOrderReport {
 
     ArrayList<OrderSummary> ordersummarylist;
